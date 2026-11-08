@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://dkpv7cutdgogy"]
+
+[ext_resource type="Script" uid="uid://djcbuisadnbih" path="res://scripts/creature.gd" id="1_errlg"]
+
+[node name="new" type="Node2D" unique_id=733872867]
+script = ExtResource("1_errlg")
