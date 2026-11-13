@@ -3,7 +3,11 @@ extends Node2D
 @onready var map: TileMapLayer = $map
 @export var size : Vector2i = Vector2i(10,10)
 
+var debug = true
+
 func _ready() -> void:
+	if debug:
+		return
 	map.clear()
 	for x in range(size.x):
 		for y in range(size.y):

@@ -26,7 +26,8 @@ folder_colors={
 "res://images/": "blue",
 "res://others/": "green",
 "res://scenes/": "red",
-"res://scripts/": "orange"
+"res://scripts/": "orange",
+"res://scripts/creatures/": "yellow"
 }
 
 [input]
@@ -79,7 +80,8 @@ zoom_out={
 
 [rendering]
 
+textures/canvas_textures/default_texture_filter=0
 rendering_device/driver.windows="d3d12"
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
-environment/defaults/default_clear_color=Color(0.06404383, 0.02425097, 0.053625688, 1)
+environment/defaults/default_clear_color=Color(0.008810457, 0.03253543, 0.06168744, 1)

@@ -6,8 +6,8 @@ extends Camera2D
 @export var max_zoom := 8.0
 
 func _ready() -> void:
-	zoom.x = (max_zoom + min_zoom) / 2
-	zoom.y = (max_zoom + min_zoom) / 2
+	zoom.x = min_zoom
+	zoom.y = min_zoom
 	
 func _process(delta : float) -> void:
 	var direction := Vector2(
